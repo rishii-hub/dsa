@@ -4,7 +4,7 @@
 // Key idea: leave n-k cards in the middle → find minimum-sum window
 // TC: O(n) | SC: O(1)
 
-public class maxScore {
+public class MaxScore {
 
     public static int maxScore(int[] cardPoints, int k) {
         int n = cardPoints.length;
@@ -52,4 +52,4 @@ public class maxScore {
 
         System.out.println(maxScore(cardPoints, k));
     }
-} 
+}
