@@ -21,5 +21,6 @@ public class maxAverage {
             sum += nums[i];
             sum -= nums[i - k];
         }
+        System.out.println((double) sum / k);
     }
 }
